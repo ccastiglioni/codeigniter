@@ -1,7 +1,6 @@
-# Prova PHP IST
+# Projeto MVC Codeigniter
 
-O desenvolvimento da prova consiste em desenvolver um sistema, conforme especificado nos protótipos abaixo.
-
+ 
 **Cadastro de pessoa**
 
 ![prova-php-ist](imagens/pessoa.png)
@@ -14,13 +13,6 @@ O desenvolvimento da prova consiste em desenvolver um sistema, conforme especifi
 
 ![prova-php-ist](imagens/movimentacao.png)
 
-Para a realização da prova, deve-se utilizar a linguagem de programação **PHP**.
-
-Alguns pontos em relação ao desenvolvimento: 
-- Pode ser utilizado qualquer framework PHP (Laravel, CodeIgniter, Symfony e outros) para o desenvolvimento.
-- Fique a vontade para adicionar bibliotecas e ferramentas externas, caso ache necessário.
-- O arquivo de exemplo de conexão com o banco de dados, está no arquivo `app/index.php`.
-- Organize os arquivos do projeto de uma forma adequada (MVC).
 
 ## Configuração do Projeto
 
@@ -36,15 +28,5 @@ Após o clone do projeto no **GitHub**, ir via terminal na pasta extraida e exec
 
 **Atenção:** Se atentar que não pode haver nenhum serviço rodando nas portas `80` e `3306` no computador utilizado para a realização da prova, se tiver, será necessário fechar todos os serviços que utilizam essas portas.
 
-Para verificar se a aplicação subiu corretamento com o docker, digitar no navegador http://localhost/, deverá mostrar uma tela inicial com **Hello World!**, e um exemplo de uma lista com os dados da tabela `pessoas`.
 
-Abaixo os dados para testar a conexão com o banco de dados:
-- host: localhost
-- port: 3306
-- database: ist
-- user: root
-- password: 123.456
 
-**Atenção:** Ao publicar fique atento ao para mandar no repositorio compartilhado com você e não no pessoal.
-
-No mais, desenvolva com qualidade e boa prova! :)
