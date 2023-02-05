@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "02ce22e378ec20183298ce1eeb56d20c",
+    "packages": [
+        {
+            "name": "yidas/codeigniter-rest",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yidas/codeigniter-rest.git",
+                "reference": "7630c646f1d1294e3d9fd65a716e8a2b3ecc5bc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yidas/codeigniter-rest/zipball/7630c646f1d1294e3d9fd65a716e8a2b3ecc5bc7",
+                "reference": "7630c646f1d1294e3d9fd65a716e8a2b3ecc5bc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yidas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CodeIgniter 3 RESTful API Resource Base Controller",
+            "homepage": "https://github.com/yidas/codeigniter-rest",
+            "keywords": [
+                "api",
+                "authorization",
+                "codeigniter",
+                "controller"
+            ],
+            "time": "2019-02-27T06:30:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
